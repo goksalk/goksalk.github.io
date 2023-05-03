@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*? bodye resim ekleme yeri */
+body {
+  background-image: url(./background_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container {
+   background-color:rgba(0, 0, 0, 0.5)
+  }
+  .container{
+    width: 75%;
+    margin: auto;
+  }
+
+/*? başlık ve descripton yeri */
+h1 {
+  font-family: "Bungee Shade", cursive;
+  font-size: 50px;
+  color: white;
+}
+span {
+  color: red;
+}
+p {
+  font-family: "Sorts Mill Goudy";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 40px;
+  color: white;
+}
+header {
+  text-align: center;
+}
+/*!form bölümü  */
+div #survey-form {
+  background-color: black;
+  opacity: 0.8;
+  border: 2px solid red;
+  color: white;
+  font-size: 20px;
+
+  width: 500px;
+  height: 897px;
+  left: 470px;
+  top: 168px;
+  margin: auto;
+  /* text-align: center; */
+  font-size: 25px;
+  
+
+.box {
+}
+.input {
+  padding: 10px;
+  margin-left: 10px;
+  width: 400px;
+  height: 50px;
+  /* text-align: left; */
+}
+
+/** buton kısmı send */
+#send {
+  color: white;
+  border-radius: 20px;
+  background-color: red;
+  width: 200px;
+  padding: 10px;
+  font-size: 25px;
+  margin-left: 110px;
+  
+}

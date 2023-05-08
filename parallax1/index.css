@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+
+  height: 100vh;
+  width: 100%;
+}
+.açıkrenk {
+  background-color: rgb(241, 241, 241);
+  color: #666;
+}
+section {
+  text-align: center;
+  padding: 3rem 5rem;
+}
+.backimg1 {
+  background-size: cover;
+  background-image: url(./img/bg.jpg);
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  margin: 300px;
+
+  height: auto;
+  font-size: 48px;
+  letter-spacing: 5px;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  outline: 8px inset indigo;
+  word-spacing: 0;
+  color: white;
+  background-color: black;
+  outline-offset: 16px;
+  line-height: 5rem;
+  opacity: 0.9;
+}
+
+h2 {
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+  margin: 25px;
+}
+
+.logo {
+  text-align: center;
+  margin: 300px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.backimg2 {
+  height: 100vh;
+  width: 100%;
+  opacity: 1;
+  background-image: url(./img/bg1.jpg);
+
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/* .logo2 {
+  width: 10px;
+  height: 100px;
+  margin: 16px;
+  position: relative;
+} */
+.koyukısım {
+  background-color: #222528;
+  color: #dddd;
+}
+
+.backimg3 {
+  background-size: cover;
+  background-image: url(./img/bg3.jpg);
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backimg4 {
+  background-size: cover;
+  background-image: url(./img/bg4.jpg);
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backimg5 {
+  background-image: url(./img/bg2.jpg);
+  background-size: cover;
+
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#son {
+  text-align: center;
+  width: 100px;
+}
